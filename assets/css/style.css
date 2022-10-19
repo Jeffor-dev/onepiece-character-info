@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden
+}
+
+
+/* .shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+} */
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wallpaperaccess.com/full/2603112.png");
+    background-size: cover;
+    
+
+}
+
+.up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    z-index: 2;
+
+}
+
+.char {
+    width: 30%;
+    height: 85%;
+    background-image: url("https://i.pinimg.com/originals/72/6c/19/726c198961021a8c851dd73f19394057.jpg");
+    background-size: cover;
+    border: 7px solid #1A1A1A;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 10px #000);
+    
+}
+
+.char-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 85%;
+    background-color: #1A1A1A;
+    border: 7px solid #1A1A1A;
+    border-left: none;
+    border-radius: 5px;
+    color: white;
+    filter: drop-shadow(5px 5px 10px #000);
+
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    font-size: 24px;
+}
+.down-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.box-character {
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 75%;
+    border: 7px solid #1A1A1A;
+    border-radius: 5px;
+    filter: drop-shadow(5px 5px 10px #000);
+    overflow: hidden
+
+}
+
+.box-character:hover {
+    transform: scale(1.2);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.picture {
+    width: 100%;
+    height: 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: drop-shadow(5px 5px 10px #3C3C3C);
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    background-color: #1A1A1A;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* pictures */
+.active {
+    transition: 1s;
+    border: 7px solid #D4D4D4;
+}
+#luffy {
+    background-image: url("https://i.pinimg.com/736x/1a/67/6d/1a676d658fd9b78fdaea59bb1bfeb83d.jpg");
+}
+
+#zoro {
+    background-image: url("https://i.pinimg.com/564x/ec/b1/02/ecb1029d72a82eaa22b21c6754c65e81.jpg");
+}
+
+#nami {
+    background-image: url("https://i.pinimg.com/originals/49/df/34/49df347bbd7029315bd32b21515629c0.jpg");
+}
+
+#sanji {
+    background-image: url("https://img.wattpad.com/55b6166381719f19a46e5b01a1b3e69507cdb459/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6b76334d3174726963734a6c31773d3d2d3937383137383237302e313634353639373661303534346635383535343736353434353632312e6a7067?s=fit&w=720&h=720");
+}
+
+#chopper {
+    background-image: url("https://64.media.tumblr.com/627149b10cbe68729f15f68bcca44c94/7ac98c4560d444e3-ae/s1280x1920/f04a8133d3edef577577ba920d1d26bbfc631053.jpg");
+}
+
+#robin {
+    background-image: url("https://i.pinimg.com/originals/0b/cb/d9/0bcbd98478d5e08e66aeb88c8a7ff1c4.jpg");
+}
